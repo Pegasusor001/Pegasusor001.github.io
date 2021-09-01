@@ -1,6 +1,6 @@
 /**
-* Template Name: Kelly - v4.3.0
-* Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
+* Template Name: Lun - v4.3.0
+* Template URL: https://bootstrapmade.com/Lun-free-bootstrap-cv-resume-html-template/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */

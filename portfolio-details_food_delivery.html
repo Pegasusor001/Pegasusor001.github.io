@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Lun Ji Personal Page</title>
+  <title>Project Details - Lun Ji</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -26,59 +26,60 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
 </head>
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
-    <div class="container-fluid d-flex justify-content-between align-items-center">
+  <main id="main">
 
-      <h1 class="logo me-auto me-lg-0"><a href="index.html">Lun Ji</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
 
-      <nav id="navbar" class="navbar order-last order-lg-0">
-        <ul>
-          <li><a class="active" href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="portfolio.html">Projects</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+        <div class="row gy-4">
 
-      <div class="header-social-links">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper-container">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/food_delivery_1.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/food_delivery_2.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img style="width: 34%; margin-left: 33%;" src="assets/img/portfolio/food_delivery_3.jpeg" alt="">
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>Food Delivery</h3>
+              <ul>
+                <li><strong>Category</strong>: Web design</li>
+                <li><strong>Project date</strong>: June, 2021</li>
+                <li><strong>Frameworks</strong>: Express, Node, Ruby on Rails, EJS, PostgreSQL</li>
+              </ul>
+            </div>
+            <div class="portfolio-description">
+              <p>
+                This is a restaurant website that allows user to read menu and order deliveries.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
       </div>
+    </section><!-- End Portfolio Details Section -->
 
-    </div>
-
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
-    <div class="container d-flex flex-column align-items-center" data-aos="zoom-in" data-aos-delay="100">
-      <h1>Lun Ji</h1>
-      <h2>I'm a Junior Web Developer from Toronto</h2>
-      <a href="about.html" class="btn-about">About Me</a>
-    </div>
-  </section><!-- End Hero -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Lun</span></strong>. All Rights Reserved
-      </div>
-      
-    </div>
-  </footer><!-- End  Footer -->
+  </main><!-- End #main -->
 
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
